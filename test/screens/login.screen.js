@@ -15,8 +15,6 @@ class LoginScreen {
         return $('android=new UiSelector().text("Username")')
     }
 
-    //get #username (){ return $('id:input')}
-
     get #password() {
         return $('android=new UiSelector().text("Password")')
     }
