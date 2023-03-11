@@ -12,6 +12,7 @@ exports.config = {
         "platformVersion": "9.0",
         "deviceName": "ebacc-qe",
         "automationName": "UiAutomator2",
+        "appWaitActivity": 'com.woocommerce.android.ui.login.LoginActivity',
         "app": join(process.cwd(), './app/android/wcandroid-12.3-Signed.apk')
     }],
 
